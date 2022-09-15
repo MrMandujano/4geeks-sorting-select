@@ -1,0 +1,73 @@
+/* html {
+  box-sizing: inherit;
+} */
+
+body {
+  color: rgb(72, 71, 71);
+  text-shadow: 0 0 0.2em #ffffff, 0 0 0.2em #ffffff;
+  background-color: rgb(24, 37, 24);
+}
+
+.color--red {
+  color: red;
+}
+
+.color--black {
+  color: black;
+}
+
+.card {
+  background-color: white;
+  height: 100px;
+  width: 70px;
+  margin-right: 1rem;
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.suit {
+  padding-left: 10%;
+}
+
+.suit--bottom {
+  transform: rotate(180deg);
+}
+
+.number {
+  margin: 20% 0%;
+  text-align: center;
+  color: black;
+}
+
+.cards-container-row {
+  margin-top: 25px;
+  display: flex;
+  flex-direction: row;
+}
+
+.cards-container-sort-row {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+}
+
+.sort-container {
+  margin-top: 2rem;
+}
+
+.container-iteration-num {
+  display: flex;
+  align-items: center;
+  margin: 15px;
+}
+
+.iteration-num {
+  font-size: 1.4rem;
+}
+
+.footer {
+  margin: 0 auto;
+  margin-top: 460px;
+  display: flex;
+  justify-content: center;
+}
